@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<h2 align="center">FREE MAIL INDIA.COM</h2>
+<p align="center">Get a FREE MAIL INDIA ID and connect to people</p><br>
+<form action="a.php" method="get">
+Enter your name:   <input type="text" name="usrname" placeholder="full name" size="15" maxlenth="30"><br><br>
+Gender. . . . . . . . :   <input type="radio" name="gender" value="male" checked>Male
+<input type="radio" name="gender" value="female" >Female<br><br>
+Enter your Password: <input type="password" name="pass-id" value="idefault" size="12"><br><br>
+ID-Proof. . . . . . . :<input type="checkbox" name="id-proof" value="adhar card">Adhar Card
+<input type="checkbox" name="id-proof" value="voter card" checked>Voter Card<br><br><br><br><br>
+Your Pride<select name="Country">
+<option value="indayo">INDIA
+<option value="usa">USA
+<option value="japan" selected>JAPAN
+</select>
+<div style="position:absolute;left:30%;top:48%">
+Favourite Sports  <select name="Sports" multiple>
+<option value="c">Cricket
+<option value="h">Hockey
+<option value="b" selected>Badminton
+</select><br><br>
+<div style="position:relative;left:-120%;bottom:-120%">
+<textarea  name="feedback" rows=5 cols=40 wrap="virtual" placeholder="permanent address"></textarea>
+</div><br><br>
+<input type="image" src="sub.png" width=30 height=30 alt="browse my photo">
+<input type="submit" value="Create My Account">
+<input type="reset" value="Reset">
+</form>
+</html>

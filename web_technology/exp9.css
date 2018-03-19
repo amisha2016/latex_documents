@@ -1,0 +1,62 @@
+body {
+    color:black;
+}
+h1 {
+    color: magenta;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+p.upper {
+    text-transform:capitalize;
+    font-size:40px;
+    text-indent: 250px;
+   font-family:sans-serif;
+ font-style: italic;
+ font-weight: normal;
+font-variant: small-caps;
+}
+div.d1 {
+    text-align: justify;
+font-size: 20px;
+border-radius:500px;
+border: 10px solid pink;
+}
+p.small {
+    line-height: 3;
+ font-family: "Times New Roman", Times;
+ font-style: normal;
+ font-weight: bold;
+font-variant: normal;
+}
+div.d2 {
+    direction: rtl;
+  text-transform:uppercase;
+box-shadow: 600px 25px 50px green;
+}
+/* unvisited link */
+a:link {
+    color: brown;
+text-decoration: overline;
+background-color: white;
+}
+/* visited link */
+a:visited {
+    color: green;
+text-decoration: none;
+background-color: lightyellow;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+background-color: lightgrey;
+text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+text-decoration: line-through;
+background-color:lightgreen;
+}
+

@@ -1,0 +1,145 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+table.table1 {
+font-family:aerial,sans-serif;
+border-collapse:collapse;
+width=100%
+}
+th,td{
+text-align:left;
+padding:5px;
+border:  1px solid #dddddd;
+}
+tr:nth-child(even){
+background-color: #dddddd;
+}
+.center1{
+position:relative;
+    left:0;
+    right:0;
+    top:80%;
+    bottom:0;
+}
+.center2{
+position:relative;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+.center3{
+position:absolute;
+    left:0;
+    right:50%;
+    top:37%;
+    bottom:0;
+}
+.center4{
+position:absolute;
+    left:0;
+    right:5%;
+    top:5%;
+    bottom:0;
+}
+
+</style>
+<title>Making Tables</title>
+</head>
+<body>
+<div class="center1">
+<table class="table1">
+<caption><b>Table having borders</b></caption>
+<tr>
+<th>Company</th>
+<th>Contact</th>
+<th>Country</th>
+</tr>
+ <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+</tr>
+</table>
+</div>
+<br><br>
+<div class="center2">
+<table cellpadding="20" cellspacing="5" border="2">
+<caption><b>Illustrating Rowspan<b></caption>
+<tr>
+<th>Name</th>
+<td>Priyal</td>
+</tr>
+<tr>
+<th rowspan="2">Phone No</th>
+<td>1234567890</td>
+</tr>
+<tr>
+<td>9877565464</td>
+</tr>
+</table>
+</div>
+<div class="center3" align="right">
+<table class="table1">
+<caption><b>Specifying cell size<b></caption>
+<tr>
+<th width=65%>Name</th>
+<td width=50%>Krishna</td>
+</tr>
+<tr>
+<th rowspan="2">Phone No</th>
+<td>1234567890</td>
+</tr>
+<tr>
+<td>9877565464</td>
+</tr>
+</table>
+</div>
+<div  style="padding:70px">
+<table  class="table1" border=15 bgcolor="pink">
+<caption align=bottom><B>Illustrating colspan<B></caption>
+<tr>
+<th width=70%>Name</th>
+<th colspan="2" width=50%>Telephone</th>
+</tr>
+<tr>
+<td><img src="amisha.jpeg">Amisha</td>
+<td>9123456655</td>
+<td>7896543555</td>
+</tr>
+<tr>
+<td><img src="fold.jpeg" width=6% height=6%>Radhika</td>
+<td>91234563653</td>
+<td>78965443455</td>
+</tr>
+</table>
+</div>
+<div class="center4">
+<iframe src="basic.html" marginwidth="1" marginheight="1" scrolling="yes" name="Welcome to TCC Page" width="450" height="350" align="right"></iframe>
+<div style="position:absolute;left:70%;right:5%;top:-7%;">
+<h4 ><b><i>Example of an Inline frame</i></b></h4>
+</div>
+</div>
+</body>
+</html>

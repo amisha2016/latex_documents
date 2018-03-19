@@ -1,0 +1,37 @@
+ul.a {
+    list-style-type: circle;
+ list-style-position: inside;
+}
+ul.b {
+    list-style-image: url('sub.png');
+ list-style-position: outside;
+
+}
+ol.c {
+    list-style-type: lower-alpha;
+ padding: 5px;
+ margin-left: 50px;
+
+}
+ol.d {
+    list-style-type: upper-roman;
+margin: 30px;
+background: #ff9999;
+}
+table {
+    width: 100%;
+font-family:aerial,sans-serif;
+border-collapse:collapse;
+}
+
+th {
+    text-align: left;
+border-bottom: 1px solid green;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+border-bottom: 1px solid blue;
+}
+tr:hover {background-color:grey}
+
